@@ -165,16 +165,16 @@ img {
 }
 
 .quality {
-  background: url("/../img/quality.jpg");
+  background: url("./../img/quality.jpg");
 }
 .pack {
-  background: url("/../img/pack.jpg");
+  background: url("./../img/pack.jpg");
 }
 .hand {
-  background: url("/../img/hand.jpg");
+  background: url("./../img/hand.jpg");
 }
 .corn {
-  background: url("/../img/hop.jpg");
+  background: url("./../img//hop.jpg");
 }
 
 .hero_points_item {
