@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <script defer src="js/index.js"></script>
+    <title>Pizza Cheff</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_container container flex">
+        <div class="header_logo flex">
+          <img
+            src="./img/pizza_logo.jpg"
+            alt="logo"
+            class="header_logo-pizza"
+          />
+          <img
+            src="./img/pizza_cheff.jpg"
+            alt="pizza cheff"
+            class="header_logo-pizza-cheff"
+          />
+        </div>
+
+        <nav class="header_nav">
+          <ul class="header_menu_list flex">
+            <li><a href="*" class="header_menu_item"> Пиццы </a></li>
+            <li><a href="*" class="header_menu_item"> Напитки </a></li>
+            <li>
+              <a href="#" class="header_menu_item"> Доставка и оплата </a>
+            </li>
+            <li><a href="#" class="header_menu_item"> Контакты </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="hero">
+        <div class="hero_container flex">
+          <div class="hero_description">
+            <h1 class="hero_title">Самая вкусная пицца в&nbsp;мире</h1>
+            <p class="hero_subtitle">только в Piza Cheff</p>
+            <div class="hero_points">
+              <div class="hero_points_item corn">
+                <h4 class="hero_points_title">Лучшее тесто</h4>
+                <p class="hero_points_body">
+                  Мы создаем тесто только из отборной итальянской муки
+                  наивысшего качества
+                </p>
+              </div>
+
+              <div class="hero_points_item pack">
+                <h4 class="hero_points_title">Лучшие повара</h4>
+                <p class="hero_points_body">
+                  Пиццы готовят самые профессиональные итальянские повара
+                </p>
+              </div>
+
+              <div class="hero_points_item quality">
+                <h4 class="hero_points_title">Гарантия качества</h4>
+                <p class="hero_points_body">
+                  Наша пиццерия получила множество наград и признаний по всему
+                  миру
+                </p>
+              </div>
+
+              <div class="hero_points_item hand">
+                <h4 class="hero_points_title">Отборные рецепты</h4>
+                <p class="hero_points_body">
+                  Мы используем рецепты от мировых лидеров в изготовлении пиццы
+                </p>
+              </div>
+            </div>
+            <button class="hero_button button">Выбрать пиццу</button>
+          </div>
+
+          <img
+            src="./img/pizza_hero.jpg"
+            srcset="./img/pizza_hero@2x.jpg"
+            alt="pizza image"
+            class="hero_image"
+          />
+        </div>
+      </section>
+
+      <section class="products">
+        <h2 class="products_title">Выберите свою любимую пиццу</h2>
+        <div class="products_container">
+          <article class="products_item">
+            <a href="./img/pizza1.jpg" data-lightbox="pizza1">
+              <img
+                src="./img/pizza1.jpg"
+                data-lightbox="any"
+                alt="pizza"
+                class="products_item_image"
+              />
+            </a>
+
+            <h4 class="products_item_title">Мясная Делюкс</h4>
+            <p class="products_item_description">
+              Пепперони, лук, бекон, томатная паста, колбаски, перец, грибы,
+              соус чили, ананасы
+            </p>
+            <button class="products_button button">В корзину</button>
+          </article>
+
+          <article class="products_item">
+            <a href="./img/pizza2.jpg" data-lightbox="pizza2">
+              <img
+                src="./img/pizza2.jpg"
+                alt="pizza"
+                class="products_item_image"
+              />
+            </a>
+
+            <h4 class="products_item_title">Морская Премиум</h4>
+            <p class="products_item_description">
+              Перец, сыр, креветки, кальмары, мидии, лосось
+            </p>
+            <button class="products_button button">В корзину</button>
+          </article>
+          <article class="products_item">
+            <a href="./img/pizza3.jpg" data-lightbox="pizza3">
+              <img
+                src="./img/pizza3.jpg"
+                alt="pizza"
+                class="products_item_image"
+              />
+            </a>
+            <h4 class="products_item_title">Бекон и Сосиски</h4>
+            <p class="products_item_description">
+              Бекон, сыр, сосиски, ананас, томатная паста
+            </p>
+            <button class="products_button button">В корзину</button>
+          </article>
+          <article class="products_item">
+            <a href="./img/pizza4.jpg" data-lightbox="pizza4">
+              <img
+                src="./img/pizza4.jpg"
+                alt="pizza"
+                class="products_item_image"
+              />
+            </a>
+
+            <h4 class="products_item_title">Куриная Делюкс</h4>
+            <p class="products_item_description">
+              Курица, ананас, сыр Пепперони, соус для пиццы, томатная паста
+            </p>
+            <button class="products_button button">В корзину</button>
+          </article>
+          <article class="products_item">
+            <a href="./img/pizza5.jpg" data-lightbox="pizza5">
+              <img
+                src="./img/pizza5.jpg"
+                alt="pizza"
+                class="products_item_image"
+              />
+            </a>
+
+            <h4 class="products_item_title">Барбекю Премиум</h4>
+            <p class="products_item_description">
+              Свинина BBQ, соус Барбкею, сыр, курица, соус для пиццы, соус чили
+            </p>
+            <button class="products_button button">В корзину</button>
+          </article>
+          <article class="products_item">
+            <a href="./img/pizza6.jpg" data-lightbox="pizza6">
+              <img
+                src="./img/pizza6.jpg"
+                alt="pizza"
+                class="products_item_image"
+              />
+            </a>
+
+            <h4 class="products_item_title">Пепперони Дабл</h4>
+            <p class="products_item_description">
+              Пепперони, сыр, колбаса 2 видов: обжаренная и вареная
+            </p>
+            <button class="products_button button">В корзину</button>
+          </article>
+          <article class="products_item">
+            <a href="./img/pizza7.jpg" data-lightbox="pizza7">
+              <img
+                src="./img/pizza7.jpg"
+                alt="pizza"
+                class="products_item_image"
+              />
+            </a>
+
+            <h4 class="products_item_title">Криное трио</h4>
+            <p class="products_item_description">
+              Жареная курица, Тушеная курица, Куриные наггетсы, перец, сыр,
+              грибы, соус для пиццы
+            </p>
+            <button class="products_button button">В корзину</button>
+          </article>
+          <article class="products_item">
+            <a href="./img/pizza2.jpg" data-lightbox="pizza2">
+              <img
+                src="./img/pizza8.jpg"
+                alt="pizza"
+                class="products_item_image"
+              />
+            </a>
+            <h4 class="products_item_title">Сырная</h4>
+            <p class="products_item_description">
+              Сыр Джюгас, Сыр с плесенью, Сыр Моцарелла, Сыр секретный
+            </p>
+            <button class="products_button button">В корзину</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="delivery">
+        <div class="delivery_description">
+          <h3 class="delivery_description_title">Хватит думать!</h3>
+          <h3 class="delivery_description_subtitle">
+            Доставим заказ за&nbsp;30 минут!
+          </h3>
+          <p class="delivery_description_body">
+            Мы гарантированно доставим вашу пиццу за 30 минут с момента
+            оформления заказа. Если мы опоздаем даже на 1 минуту - вы получаете
+            весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы
+            гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен
+            и не остался голодный!
+          </p>
+        </div>
+
+        <form class="delivery_form">
+          <input
+            required
+            type="text"
+            id="name"
+            class="delivery_form_input"
+            placeholder="Ваше имя"
+          />
+
+          <input
+            required
+            type="text"
+            id="adress"
+            class="delivery_form_input"
+            placeholder="Адрес доставки"
+          />
+
+          <input
+            required
+            type="tel"
+            id="number"
+            class="delivery_form_input"
+            placeholder="Телефон"
+            minlength="11"
+            maxlength="11"
+          />
+
+          <button
+            class="delivery_form_button button"
+            id="button_form"
+            type="submit"
+          >
+            Оформить заказ
+          </button>
+        </form>
+        <img class="delivery_image" src="./img/pizza_bottom.jpg" alt="pizza" />
+      </section>
+    </div>
+
+    <div class="pop_up">
+      <div class="pop_up-content">
+        Спасибо за заказ!
+        <button class="button" id="button_pop-up">Закрыть</button>
+      </div>
+    </div>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
