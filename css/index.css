@@ -335,12 +335,12 @@ img {
   right: 0;
   height: 100%;
   width: 100%;
+  align-items: center;
+  justify-content: center;
   background-color: #393939a5;
 }
 .pop_up-content {
   position: absolute;
-  top: 40%;
-  left: 45%;
   background-color: white;
 
   max-width: 600px;
@@ -354,5 +354,5 @@ img {
   gap: 20px;
 }
 .active {
-  display: block;
+  display: flex;
 }
